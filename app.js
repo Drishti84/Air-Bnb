@@ -54,9 +54,9 @@ const sessionOptions = {
 
 
 
-// app.get("/" , (req, res) => {
-//     res.send("hii this is home page");
-// });
+app.get("/" , (req, res) => {
+    res.send("home");
+});
 
 app.use(session(sessionOptions));
 app.use(flash());
