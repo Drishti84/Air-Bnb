@@ -1,6 +1,6 @@
 {
   "engines": {
-    "node": "18.x"
+    "node": "20.x"
   },
   "name": "new-folder",
   "version": "1.0.0",
